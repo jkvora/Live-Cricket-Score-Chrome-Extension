@@ -1,0 +1,70 @@
+.hidden
+{
+  display: none;
+}
+.cards
+{
+color: green;
+background-color: azure;
+height: 20px;
+width: 300px;box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+}
+.cards:hover
+{
+cursor:pointer;
+color:white;
+background-color: black;
+}
+#ScoreCardsWrapper
+{
+  height: :500px;
+  width: 300px;
+  overflow:  hidden;
+}
+#loaderwrapper
+{
+height:60px;
+width:300px;
+padding:25px;
+}
+#preloader6{
+    position:relative;
+    width: 42px;
+    height: 42px;
+    animation: preloader_6 5s infinite linear;
+    left:125px;
+}
+#preloader6 span{
+    width:20px;
+    height:20px;
+    position:absolute;
+    background:red;
+    display:block;
+    animation: preloader_6_span 1s infinite linear;
+}
+#preloader6 span:nth-child(1){
+background:#2ecc71;
+
+}
+#preloader6 span:nth-child(2){
+left:22px;
+background:#9b59b6;
+    animation-delay: .2s;
+
+}
+#preloader6 span:nth-child(3){
+top:22px;
+background:#3498db;
+    animation-delay: .4s;
+}
+#preloader6 span:nth-child(4){
+top:22px;
+left:22px;
+background:#f1c40f;
+    animation-delay: .6s;
+}
+@keyframes preloader_6_span {
+   0% { transform:scale(1); }
+   50% { transform:scale(0.5); }
+   100% { transform:scale(1); }
+}
