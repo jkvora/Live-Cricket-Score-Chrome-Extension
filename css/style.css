@@ -6,7 +6,10 @@
 {
 color: green;
 background-color: azure;
-height: 20px;
+height: 50px;
+align-items: center;
+justify-content: center;
+display:flex;
 width: 300px;box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
 }
 .cards:hover

@@ -17,7 +17,7 @@ console.log("score Updated");
 /*Display Score ScoreCards*/
 function DisplayScoreCards(data){
     info=data;
-    var delay = setTimeout(GenerateCards, 1500);
+    var delay = setTimeout(GenerateCards, 1000);
 }
 
 
