@@ -10,4 +10,10 @@ Things to Improve:<br/>
   Need to find alternate source of data so that more information can be displayed.
   
   
+  Chrome Extension Link: https://chrome.google.com/webstore/detail/live-cricket-score/fjidjnpomilnlnmbknpnanmkdjhbfgko?hl=en-US
+  
+  
+  
+  
+  
 
